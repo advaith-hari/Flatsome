@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f163a432b2.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>FLATSOME</title>
+</head>
+<body>
+    <div class="main m-0">
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-white m-3 d-flex header" id="headerPart">
+                <a href="#" class="navbar-brand">
+                    <img src="images/logo.png" alt="logo here" class="logo" width="65%">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#listOfItems" 
+                        aria-controls="listOfItems" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse linksection" id="listOfItems">
+                    <ul class="navbar-nav links">
+                        <li class="nav-item dropdown"> 
+                            <a href="#" class="nav-link dropdown-toggle mainlinks" id="demosDrop" 
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false" >DEMOS</a>
+                            <ul class="dropdown-menu" aria-labelledby="demosDrop">
+                                <li><a href="#d1" class="dropdown-item">Link1</a></li>
+                                <li><a href="#d2" class="dropdown-item">Link2</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle mainlinks" id="featuresDrop" 
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">FEATURES</a>
+                            <ul class="dropdown-menu" aria-labelledby="featuresDrop">
+                                <li><a href="#f1" class="dropdown-item">Link1</a></li>
+                                <li><a href="#f2" class="dropdown-item">Link2</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle mainlinks" id="shopDrop" 
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">SHOP</a>
+                            <ul class="dropdown-menu" aria-labelledby="shopDrop">
+                                <li><a href="#latest" class="dropdown-item">Link1</a></li>
+                                <li><a href="#best" class="dropdown-item">Link2</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown"> 
+                            <a href="#" class="nav-link dropdown-toggle mainlinks" id="pagesDrop" 
+                                role="button" data-bs-toggle="dropdown">PAGES</a>
+                            <ul class="dropdown-menu" aria-labelledby="pagesDrop">
+                                <li><a href="#news" class="dropdown-item">Link1</a></li>
+                                <li><a href="#news" class="dropdown-item">Link2</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"> <a href="#" class="nav-link mainlinks">BLOG</a></li>
+                        <li class="nav-item"> <a href="#" class="nav-link mainlinks">ELEMENTS</a></li>
+                        <li class="nav-item dropdown"> 
+                            <a href="#" class="nav-link dropdown-toggle mainlinks" id="searchDrop" 
+                                role="button" data-bs-toggle="dropdown" style="content: none;"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            
+                        </li>
+                    </ul>
+                    <div class="bar m-3" style="border-right: 1px solid rgba(0, 0, 0, 0.188); height: 40px;"></div>
+                    <button class="btn btn-lg btn-outline-danger me-md-0 me-lg-3 fw-semibold titlebutton" id="titlebutton1">SIGN UP</button>
+                    <button class="btn btn-lg btn-primary fw-semibold titlebutton" id="titlebutton2">BUY NOW</button>
+                </div>
+                
+
+        </nav>
+        
+        <!-- <div class="c container1">
+            <div class="section1">
+                <h3>A SMALL HEADER</h3>
+                <h1 class="headings">ADD SOME CORPORATE HEADER HERE</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed id obcaecati excepturi expedita ipsum, provident laborum consectetur.....</p>
+                <button class="btn btn-dark btn-lg commonBtn">A BUTTON</button>
+            </div>
+            <img src="images/primary1.jpg" alt="bgimage here" class="primaryimage">
+        </div> -->
+
+        
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-interval="1000">
+                        
+                        <div class="c container1">
+                            <div class="section1">
+                                <h3>A SMALL HEADER</h3>
+                                <h1 class="headings">ADD SOME CORPORATE HEADER HERE</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed id obcaecati excepturi expedita ipsum, provident laborum consectetur.....</p>
+                                <button class="btn btn-dark btn-lg commonBtn">A BUTTON</button>
+                            </div>
+                        </div>
+                        <img src="images/primary1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-interval="1000">
+                        <img src="images/primary4.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-interval="1000">
+                        <img src="images/primary5.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        
+
+
+        <div class="c container2 d-flex row">
+            <div class="cards col-md-4" id="f1">
+                <img src="images/cameraicon.png" >
+                <H2 class="headings">COMPANY FEATURE 1</H2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium,consectetur mollitia explicabo incidunt reprehenderit sed qui error? Labore, quidem!</p>
+            </div>
+            <div class="cards col-md-4" id="f2">
+                <img src="images/cameraicon.png" >
+                <H2 class="headings">COMPANY FEATURE 2</H2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium,consectetur mollitia explicabo incidunt reprehenderit sed qui error? Labore, quidem!</p>
+            </div>
+            <div class="cards col-md-4" id="f3">
+                <img src="images/cameraicon.png" >
+                <H2 class="headings">COMPANY FEATURE 3</H2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium,consectetur mollitia explicabo incidunt reprehenderit sed qui error? Labore, quidem!</p>
+            </div>
+        </div>
+
+
+        <!-- <div class="c container3 row" id="d1">
+            <div class="imgbox col-md-6 my-4 my-md-0">
+                <img src="images/photo-1460647927807-8e664765c97c-1000x667.jpeg" alt="">
+            </div>
+            <div class="contents col-md-6 col-12 m-0">
+                <H2 class="headings">SECTION WITH IMAGE LEFT</H2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium,consectetur mollitia explicabo incidunt reprehenderit sed qui error? Labore, quidem!</p>
+                <button class="btn btn-dark btn-lg commonBtn">ADD ANY CONTENT HERE</button>
+            </div>
+        </div>
+        <div class="c container4 row" id="d2">
+            <div class="contents col-md-6 col-12">
+                <H2 class="headings">SECTION WITH IMAGE RIGHT</H2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium,consectetur mollitia explicabo incidunt reprehenderit sed qui error? Labore, quidem!</p>
+                <button class="btn btn-dark btn-lg commonBtn">ADD ANY CONTENT HERE</button>
+            </div>
+            <div class="imgbox col-md-6 my-4 my-md-0">
+                <img src="images/studio-1600x769.jpg" alt="">
+            </div>
+        </div> -->
+
+        <div class="c container34">
+            <div class="row featurette d-flex justify-content-center align-items-center">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading">SECTION WITH IMAGE LEFT</h2>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium,consectetur mollitia explicabo incidunt reprehenderit sed qui error? Labore, quidem!</p>
+                    <button class="btn btn-dark btn-lg commonBtn">ADD ANY CONTENT HERE</button>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img class="img-fluid" src="images/photo-1460647927807-8e664765c97c-1000x667.jpeg" alt="">
+                </div>
+            </div>
+            <div class="row featurette d-flex justify-content-center align-items-center">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">SECTION WITH IMAGE RIGHT</h2>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium,consectetur mollitia explicabo incidunt reprehenderit sed qui error? Labore, quidem!</p>
+                    <button class="btn btn-dark btn-lg commonBtn">ADD ANY CONTENT HERE</button>
+                </div>
+                <div class="col-md-5">
+                    <img class="img-fluid" src="images/studio-1600x769.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+
+        <nav class="c container5 navbar d-flex" id="news">
+            <div class="right5">
+                <h1 class="headings">LATEST NEWS</h1>
+                <!-- <P>Lorem ipsum dolor adipisicing elit. Veritatis deserunt  tempora quis eos temporibus provident!</P>
+                <button class="btn btn-dark btn-lg commonBtn">OUR BLOG</button> -->
+            </div>
+            <!-- <div class="middle5 newsCard">
+                <img src="images/new.webp" >
+                <div class="inner">
+                    <h6 class="headings">Welcome to Flatsome</h6>
+                    <P>Lorem ipsum dolor adipisicing elit. Veritatis deserunt  tempora quis eos temporibus provident!</P>
+                </div>
+            </div>
+            <div class="left5 newsCard">
+                <img src="images/new1.jpg">
+                <div class="inner">
+                    <h6 class="headings">Just another post with a Gallery</h6>
+                    <P>Lorem ipsum dolor adipisicing elit. Veritatis deserunt  tempora quis eos temporibus provident!</P>
+                </div>
+            </div> -->
+        
+
+
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="cards-wrapper">
+                            <div class="middle5 newsCard">
+                                <img src="images/new.webp">
+                                <div class="inner">
+                                    <h6 class="headings">Welcome to Flatsome</h6>
+                                    <P>Lorem ipsum dolor adipisicing elit. Veritatis deserunt tempora quis eos temporibus provident!
+                                    </P>
+                                </div>
+                            </div>
+                            <div class="left5 newsCard">
+                                <img src="images/new1.jpg">
+                                <div class="inner">
+                                    <h6 class="headings">Just another post with a Gallery</h6>
+                                    <P>Lorem ipsum dolor adipisicing elit. Veritatis deserunt tempora quis eos temporibus provident!
+                                    </P>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="cards-wrapper">
+                            <div class="right6 newsCard">
+                                <img src="images/new4.jpg">
+                                <div class="inner">
+                                    <h6 class="headings">Just another post with a Gallery</h6>
+                                    <P>Lorem ipsum dolor adipisicing elit. Veritatis deserunt tempora quis eos temporibus provident!
+                                    </P>
+                                </div>
+                            </div>
+                            <div class="top5 newsCard">
+                                <img src="images/new5.jpg">
+                                <div class="inner">
+                                    <h6 class="headings">Just another post with a Gallery</h6>
+                                    <P>Lorem ipsum dolor adipisicing elit. Veritatis deserunt tempora quis eos temporibus provident!
+                                    </P>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" id="new" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" style="background-color: black" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" id="new" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" style="background-color: black" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+        </nav>
+
+
+
+        <nav class="c container6 navbar-dark py-4 px-5 row">
+            <div class="leftside col-8 d-flex">
+                <h2>ADD A CALLOUT HEADER HERE</h2>
+                <p>Lorem ipsum dolor adipisicing elit. <br> Veritatis deserunt  tempora quis eos temporibus provident!</p>
+            </div>
+            <div class="rightside col-3 d-flex">
+                <button class="btn btn-lg btn-outline-light" style="border-radius: 0; width: 200px">CALLOUT BUTTON</button>
+            </div>
+        </nav>
+        
+        <div class="c container7 d-flex">
+            <div class="sec column1 d-flex" id="latest">
+                <h1 class="secHeading">LATEST</h1>
+                <div class="bar" style="margin-top: 5px; margin-bottom: 20px; border-bottom: 3px solid #e2dede; width: 40px;"></div>
+                <div class="picCard d-flex">
+                    <img src="images/258836-0426_1-100x100.jpeg" >
+                    <div class="inner">
+                        <h1 class="headings">On1 Jersey UNIF-2</h1>
+                        <h5 class="headings">$39.00</h5>
+                    </div>
+                </div>
+                <div class="picCard d-flex">
+                    <img src="images/12345.jpeg" >
+                    <div class="inner">
+                        <h1 class="headings">Osaka Entry Tee Superdry 12</h1>
+                        <h5 class="headings">$29.00</h5>
+                    </div>
+                </div>
+                <div class="picCard d-flex">
+                    <img src="images/282004-0286_2-100x100.jpeg" >
+                    <div class="inner">
+                        <h1 class="headings">All Star Canvas Hi Converse</h1>
+                        <h5 class="headings">$29.00</h5>
+                    </div>
+                </div>
+                <div class="picCard d-flex">
+                    <img src="images/252678-0029_1-100x100.jpeg" >
+                    <div class="inner">
+                        <h1 class="headings">Fluro Big Pullover Designer Remix</h1>
+                        <h5 class="headings">$49.00</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="sec column2 d-flex" id="best">
+                <h1 class="secHeading">BEST SELLING</h1>
+                <div class="bar" style="margin-top: 5px; margin-bottom: 20px; border-bottom: 3px solid #e2dede; width: 40px;"></div>
+                <div class="picCard d-flex">
+                    <img src="images/258836-0426_1-100x100.jpeg" >
+                    <div class="inner">
+                        <h1 class="headings">Daisy Bag Sonia by Sonia Rykiel</h1>
+                        <h5 class="headings">$2,999.00</h5>
+                    </div>
+                </div>
+                <div class="picCard d-flex">
+                    <img src="images/12345.jpeg" >
+                    <div class="inner">
+                        <h1 class="headings">On1 Jersey UNIF</h1>
+                        <h5 class="headings">$39.00</h5>
+                    </div>
+                </div>
+                <div class="picCard d-flex">
+                    <img src="images/282004-0286_2-100x100.jpeg" >
+                    <div class="inner">
+                        <h1 class="headings">Beyond Top NLY Trend</h1>
+                        <h5 class="headings">$9.90</h5>
+                    </div>
+                </div>
+                <div class="picCard d-flex">
+                    <img src="images/252678-0029_1-100x100.jpeg" >
+                    <div class="inner">
+                        <h1 class="headings">Harissa O-Neck Sweat</h1>
+                        <h5 class="headings">$101.00</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="sec column3 d-flex" id="featured">
+                <h1 class="secHeading">FEATURED</h1>
+                <div class="bar" style="margin-top: 5px; margin-bottom: 20px; border-bottom: 3px solid #e2dede; width: 40px;"></div>
+                <div class="picCard d-flex">
+                    <img src="images/258836-0426_1-100x100.jpeg" >
+                    <div class="inner">
+                        <h1 class="headings">Osaka Entry Tee Superdry 12</h1>
+                        <h5 class="headings">$29.00</h5>
+                    </div>
+                </div>
+                <div class="picCard d-flex">
+                    <img src="images/12345.jpeg" >
+                    <div class="inner">
+                        <h1 class="headings">All Star Canvas Hi Converse</h1>
+                        <h5 class="headings">$29.00</h5>
+                    </div>
+                </div>
+                <div class="picCard d-flex">
+                    <img src="images/282004-0286_2-100x100.jpeg" >
+                    <div class="inner">
+                        <h1 class="headings">Fluro Big Pullover Designer Remix</h1>
+                        <h5 class="headings">$49.00</h5>
+                    </div>
+                </div>
+                <div class="picCard d-flex">
+                    <img src="images/252678-0029_1-100x100.jpeg" >
+                    <div class="inner">
+                        <h1 class="headings">Varanise CN Tee Hilfiger Denim</h1>
+                        <h5><del style="color: grey">$19.00</del> $15.00</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="sec column4 d-flex" id="top">
+                <h1 class="secHeading">TOP RATED PRODUCTS</h1>
+                <div class="bar" style="margin-top: 5px; margin-bottom: 20px; border-bottom: 3px solid #e2dede; width: 40px;"></div>
+                <div class="picCard d-flex">
+                    <img src="images/258836-0426_1-100x100.jpeg" >
+                    <div class="inner">
+                        <h1 class="headings">Woo Single #2</h1>
+                        <h5><del style="color: grey">$3.00</del> $2.00</h5>
+                    </div>
+                </div>
+                <div class="picCard d-flex">
+                    <img src="images/12345.jpeg" >
+                    <div class="inner">
+                        <h1 class="headings">Lawrance Polo Tee Jack & Jones</h1>
+                        <h5 class="headings">$39.00</h5>
+                    </div>
+                </div>
+                <div class="picCard d-flex">
+                    <img src="images/282004-0286_2-100x100.jpeg" >
+                    <div class="inner">
+                        <h1 class="headings">Classic Bag. Svea</h1>
+                        <h5>$29.00</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="c container8 d-flex px-3 py-4 row">
+            <div class="sec column1 d-flex" id="about">
+                <h1>ABOUT US</h1>
+                <div class="bar" style="margin-top: 5px; margin-bottom: 20px; border-bottom: 3px solid #a0a0a0; width: 40px;"></div>
+                <p>Lorem ipsum dolor sit amet, <br>
+                   consectetur adipisicing elit. <br>
+                   Laudantium,consectetur mollitia <br>
+                   explicabo incidunt <br>
+                   reprehenderit sed qui error? <br>
+                   Labore, quidem!
+                </p>
+                <nav class="nav">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-skype"></a>
+                <a href="#" class="fa fa-pinterest"></a>
+                </nav>
+            </div>
+            <div class="sec column2 d-flex" id="footernews">
+                <h1>LATEST NEWS</h1>
+                <div class="bar" style="margin-top: 5px; margin-bottom: 20px; border-bottom: 3px solid #a0a0a0; width: 40px;"></div>
+                <div class="c8-news">
+                    <a href="#news-a" class="news-link">
+                        <span class="news-date">19 Nov</span>
+                        <span class="news-heading">Explore FlatSome</span>
+                    </a>
+                </div>
+                <div class="c8-news">
+                    <a href="#news-b" class="news-link">
+                        <div class="news-date">13 Oct</div>
+                        <div class="news-heading">See newest trends</div>
+                    </a>
+                </div>
+                <div class="c8-news">
+                    <a href="#news-c" class="news-link">
+                        <div class="news-date">13 Oct</div>
+                        <div class="news-heading">Why fashion is important?</div>
+                    </a>
+                </div>
+                <div class="c8-news">
+                    <a href="#news-d" class="news-link">
+                        <div class="news-date">01 Jan</div>
+                        <div class="news-heading">The anual event video post</div>
+                    </a>
+                </div>
+            </div>
+            <div class="sec column3 d-flex" id="tags">
+                <h1>TAGS</h1>
+                <div class="bar" style="margin-top: 5px; margin-bottom: 20px; border-bottom: 3px solid #a0a0a0; width: 40px;"></div>
+                <div id="tagDiv">
+                    <button type="button" class="btn btn-outline-light"><span class="badge">classic</span></button>
+                    <button type="button" class="btn btn-outline-light"><span class="badge">bag</span></button>
+                    <button type="button" class="btn btn-outline-light"><span class="badge">Converse</span></button>
+                    <button type="button" class="btn btn-outline-light"><span class="badge">Diesel</span></button>
+                    <button type="button" class="btn btn-outline-light"><span class="badge">fit</span></button>
+                    <button type="button" class="btn btn-outline-light"><span class="badge">green</span></button>
+                    <button type="button" class="btn btn-outline-light"><span class="badge">Jack and Jones</span></button>
+                    <button type="button" class="btn btn-outline-light"><span class="badge">Jack and Jones-2</span></button>
+                    <button type="button" class="btn btn-outline-light"><span class="badge">jeans</span></button>
+                    <button type="button" class="btn btn-outline-light"><span class="badge">Jumper</span></button>
+                    <button type="button" class="btn btn-outline-light"><span class="badge">leather</span></button>
+                    <button type="button" class="btn btn-outline-light"><span class="badge">Lee</span></button>
+                    <button type="button" class="btn btn-outline-light"><span class="badge">levis</span></button>
+                    <button type="button" class="btn btn-outline-light"><span class="badge">man</span></button>
+                    <button type="button" class="btn btn-outline-light"><span class="badge">nypd</span></button>
+                    <button type="button" class="btn btn-outline-light"><span class="badge">party</span></button>
+                    <button type="button" class="btn btn-outline-light"><span class="badge">Pink</span></button>
+                    <button type="button" class="btn btn-outline-light"><span class="badge">River Island</span></button>
+                    <button type="button" class="btn btn-outline-light"><span class="badge">rock chick</span></button>
+                    <button type="button" class="btn btn-outline-light"><span class="badge">run</span></button>
+                    <button type="button" class="btn btn-outline-light"><span class="badge">shoe</span></button>
+                    <button type="button" class="btn btn-outline-light"><span class="badge">stars</span></button>
+                    <button type="button" class="btn btn-outline-light"><span class="badge">sweden</span></button>
+                    <button type="button" class="btn btn-outline-light"><span class="badge">t-shirt</span></button>
+                    <button type="button" class="btn btn-outline-light"><span class="badge">vans</span></button>
+                    <button type="button" class="btn btn-outline-light"><span class="badge">washed-out</span></button>
+                    <button type="button" class="btn btn-outline-light"><span class="badge">white</span></button>
+                    <button type="button" class="btn btn-outline-light"><span class="badge">women</span></button>
+                </div>
+            </div>
+            <div class="sec column4 d-flex" id="signup">
+                <h1>SIGNUP FOR NEWSLETTER</h1>
+                <div class="bar" style="margin-top: 5px; margin-bottom: 20px; border-bottom: 3px solid #a0a0a0; width: 40px;"></div>
+                <p>Signup to get news about Flatsome and WooCommerce. We don't spam.</p>
+                <input type="email" style="width: 250px" placeholder="Your Email (required)">
+                <button class="btn  btn-outline-light commonBtn" style="font-size: medium; border-radius: 30px; width: 100px; margin-top: 15px;">SIGN UP</button>
+            </div>
+
+        </div>
+
+        <div class="c container9 column">
+            <div class="sec1 row1" id="navbarSupportedContent">
+                <!-- <ul class="nav navbar-nav mr-auto"> -->
+                    <!-- <li class="nav-item"> -->
+                    <nav class="nav">
+                        <a class="nav-link" href="#">ABOUT</a>
+                    <!-- </li> -->
+                    <!-- <li class="nav-item"> -->
+                        <a class="nav-link" href="#">OUR STORE</a>
+                    <!-- </li> -->
+                    <!-- <li class="nav-item"> -->
+                        <a class="nav-link" href="#">BLOG</a>
+                    <!-- </li> -->
+                    <!-- <li class="nav-item"> -->
+                        <a class="nav-link" href="#">CONTACT</a>
+                    <!-- </li> -->
+                    <!-- <li class="nav-item"> -->
+                        <a class="nav-link" href="#">FAQ</a>
+                    <!-- </li> -->
+                <!-- </ul> -->
+                    </nav>
+                <div class="bar" style="margin-bottom: 10px; margin-left: 15px; border-bottom: 0.2px solid #a0a0a0; width: 400px;"></div>
+                <div class="sec1 row2">
+                    <footer class="container">
+                        <p>Copyright 2022 Ⓒ <a href="#">Flatsome Theme</a></p>
+                    </footer>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script type="text/javascript" src="code.js"></script>
+</body>
+</html>    
